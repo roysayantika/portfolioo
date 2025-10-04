@@ -1,0 +1,385 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: crosshair;
+}
+ html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy;
+  
+ }
+ h1{
+     color:rgb(224, 224, 243);
+     
+ }
+ 
+ h2{
+    color: #fff;
+ }
+ #main {
+width:100%;
+height: 100%;
+background-color: rgb(6, 1, 34);
+ }
+
+ #navbar{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(13, 12, 18); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #navelem h1{
+padding:10px;
+font-size: 600;;
+} 
+
+#navelem h2{
+    font-size: 600;
+    padding-left: 100px;
+    } 
+    
+    #navelem h3{
+        padding-right:10px;
+        }
+        
+.space{
+padding-left: 10px;
+text-transform: uppercase;
+color: #ebe6e6;
+}  
+#content{
+    width: 100%;
+    height: 90%;
+   /* background-color: rgb(61, 1, 1);*/
+   background-image: url(https://media.istockphoto.com/id/1488104422/photo/the-power-of-search-engine-transforming-industries-and-customer-service-a-look-into-the.jpg?s=612x612&w=0&k=20&c=QakfaJricq7vVo_NXXiPdtdtDfCQuOVRvOKijWeDgLI=);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    justify-content:center;
+}      
+
+#cont1 h4{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+#cont2 h4{
+    font-size: 40px;
+    font-weight: 500;
+}
+.text{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+#edu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#edu1{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#edu2{
+    width: 40%;
+    height: 100%;
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+#part1{
+    width: 100%;
+    height: 80%;
+    padding: 60px 60px;
+}
+#part1 h2{
+    text-align: justify;
+    text-justify:inter-word;
+    font-weight: 500;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    color: black;
+}
+#part1 p{
+    text-align: justify;
+    text-justify:inter-word;
+    font-size: 20px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+#part2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#banner{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#banner i{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#education{
+    width: 100%;
+    height: 40%;
+   /* background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.edu{
+    padding: 0 100px;
+    border-right: 1px solid black;
+}
+.edu:last-child{
+    border-right: none;
+}
+
+
+.year{
+    padding-bottom: 22px;
+    border-bottom: 1px solid #000;
+}
+.year h3{
+    padding-bottom: 5px;
+    font-weight: 400 ;
+}
+
+.institution{
+    padding-top: 18px;
+}
+.institution h3{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding-bottom:5px;
+    font-weight: 600;
+}
+.institution h5{
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+#profiles{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+.parts{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.elems{
+    width: 300px;
+    height: 243px;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.elems a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.elems:hover{
+    transform: scale(3);
+}
+
+.elems:nth-child(1):hover{
+    color:black;
+}
+.elems:nth-child(2):hover{
+    color:#ffffff;
+}
+.elems:nth-child(3):hover{
+    color: #000;
+}
+.parts:nth-child(2) .elems:nth-child(1):hover{
+    color: #000;
+}
+.parts:nth-child(2) .elems:nth-child(2):hover{
+    color:#ffffff;
+}
+
+.parts:nth-child(2) .elems:nth-child(3):hover{
+    color: #ffffff;
+}
+
+#contacts {
+width: 100%;
+height: 50%;
+background-color:rgb(255, 255, 255);
+display: flex;
+
+}
+#details{
+    width: 30%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid #000;
+    margin: 26px 0;
+}
+
+#contactform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.form1{
+    margin: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    font-weight: 400;
+    font-size:16px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+#contactform input:focus{
+    outline:none;
+}
+.button{
+    border: none;
+    margin-top: 50px;
+    padding: 12px 50px 12px 50px;
+    font-size: 14px;
+    font-weight: 600px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #000;
+    color: #fff;
+
+}
+#details1{
+    width: 70%;
+    height: 100%;
+    border-right: 1px solid #000;
+    display: flex;
+   /* background-color: #0077b5;*/
+   
+}
+#location{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+    margin: 26px 0;
+}
+
+.contacticon{
+    font-size: 22px;
+    padding: 15px;
+}
+
+.address h3{
+    font-weight: 400;
+}
+#location1,#location2 {
+padding: 15px;
+}
+
+#socials{
+    width: 30%;
+    height: 100%;
+    margin: 26px 0;
+    border-right: 1px solid black;
+
+}
+#texts h3{
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 30px;
+    
+}
+#link i,a{
+    padding: 7px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#links:hover{
+    color: green;
+}
+#rights{
+    width: 40%;
+    height: 100%;
+    margin: 26px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rights p>a{
+    text-decoration: none;
+}
+#rights p>a:hover{
+    color: #fff;
+    background-color: #000;
+    font-weight: 900;
+}
+#backToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+#backToTop:hover{
+    opacity:100%;
+}
